@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+.apply-button {
+    @apply bg-blue-800 rounded-sm px-5 py-1 text-white text-lg;
+}
+
+.apply-headers {
+    @apply text-xl text-blue-900 font-semibold pl-2;
+}
+
+.family-icon {
+    @apply flex place-items-center text-purple-900;
+}
+
+
+@tailwind utilities;
