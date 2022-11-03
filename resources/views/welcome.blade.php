@@ -24,16 +24,41 @@
 <!--MAIN-->
 <main>
     <!--BANNER-->
-    <div class="md:flex md:flex-1 pt-24 md:pt-10 text-center md:text-center md:justify-center">
-        <div class="w-1/3 md:pt-5 hidden md:flex place-items-center lg:content-end"><img src="/img/banner3.jpg"></div>
-        <div class="flex flex-col md:place-content-center md:space-y-8 md:pl-5 lg:pl-24">
-            <p class="text-grey-900">Fast funding.¹ Quick decisions.¹ Personal service.</p>
-            <p class="text-4xl md:text-6xl tracking-wide font-bold md:font-semibold text-blue-800 py-6 md:py-0">Online loans <br> designed for you</p>
-            <div class="flex flex-col mx-auto">
-                <button class="apply-button bg-yellow-500">Apply Now</button>
-                <p class="text-xs text-gray-500 pt-4 md:pt-2 md:place-items-center">Did you receive an offer code in the mail? Click here</p>
-            </div>
+    <div class="md:flex md:flex-1 pt-16 md:pt-10 text-center md:text-start lg:text-start md:justify-center">
+        <div class=" hidden md:flex md:w-[1700px] lg:w-[2000px] md:mt-2 place-items-center lg:content-end">
+            <img class="lg:mx-auto lg:w-fit lg:h-screen" src="/img/banner2.jpg">
+        </div>
+        <div class="flex flex-col md:place-content-center md:pt-10 md:space-y-8 md:pl-5 lg:pr-24">
+            <p class="text-4xl lg:text-5xl tracking-wide font-semibold text-blue-800 py-6 md:py-0 px-4">Online loans <br> designed for you</p>
 
+            <!--FORM-->
+            <form action="" class="flex flex-col px-4 space-y-4">
+                <div class="text-start space-y-3">
+                    <p>How much do you want?</p>
+                    <select name="" id="" class="form-input">
+                        <option value="300">$100-$300</option>
+                        <option value="500">$301-$500</option>
+                        <option value="700" selected>$501-$1000</option>
+                        <option value="1000">$1000+</option>
+                    </select>
+                    <p>Your email</p>
+                    <input type="email" name="email" class="form-input" placeholder="email@gmail.com">
+                    <p>Your Zip Code</p>
+                    <input type="text" name="zip" class="form-input">
+                </div>
+
+                <div class="flex text-start pr-4">
+                    <div><input type="checkbox"></div>
+                    <div class="pl-3 text-xs">
+                        <p>By submitting my request, I acknowledge I have read, understand and agree to the terms of the
+                            <a href="">Privacy Policy</a>, <a href="">Terms & Conditions</a> of Use Agreement. I also understand I may be contacted by telephone by a lender concerning my loan request and other marketing partners via SMS. I also agree to receive relevant email from JuniperFinancial, AllDayFunds and Fortifynance.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col mx-auto">
+                    <button type="submit" class="apply-button bg-yellow-500 px-16 py-2">Get Started</button>
+                </div>
+            </form>
         </div>
     </div>
 
