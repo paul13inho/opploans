@@ -2,11 +2,11 @@
 @tailwind components;
 
 .apply-button {
-    @apply bg-blue-800 rounded-sm px-5 py-1 text-white text-lg;
+    @apply rounded-sm px-5 py-1 text-white text-lg bg-yellow-500 px-16 py-2;
 }
 
 .apply-headers {
-    @apply text-xl text-blue-900 font-semibold pl-2;
+    @apply text-xl text-blue-900 font-semibold;
 }
 
 .form-input {
@@ -15,6 +15,14 @@
 
 .family-icon {
     @apply flex place-items-center text-purple-900;
+}
+
+.family-dividers {
+    @apply md:w-1/2 lg:w-full md:px-16;
+}
+
+.ask {
+    @apply flex flex-1 text-blue-800 text-lg;
 }
 
 

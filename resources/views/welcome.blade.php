@@ -8,23 +8,26 @@
 <body>
 
 <!--HEADER-->
-<header class="w-full fixed bg-blue-100 flex flex-1 items-center px-3 py-2">
-    <div class="flex flex-1 h-6"><img src="/img/logo.png.webp"></div>
+<header class="w-full fixed bg-blue-900 flex flex-1 items-center px-4 lg:px-28 py-2">
+    <div class="flex flex-1 text-white h-6"><p>247EzLoan</p></div>
     <div class="flex md:space-x-6">
         <div class="hidden md:flex">
-            <ul class="flex text-lg text-blue-800 font-semibold md:space-x-6 items-center">
+            <ul class="flex text-white md:space-x-6 items-center">
                 <li><a href="#">Loans</a></li>
                 <li><a href="#">FAQ</a></li>
             </ul>
         </div>
-        <div><button class="apply-button">Apply Now</button></div>
+        <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:hidden text-white w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+            </svg>
+        </div>
     </div>
 </header>
 
 <!--MAIN-->
 <main>
     <!--BANNER-->
-    <div class="md:flex md:flex-1 pt-16 md:pt-10 text-center md:text-start lg:text-start md:justify-center">
+    <div class="md:flex md:flex-1 pt-16 md:pt-10 text-center md:text-start lg:text-start md:justify-center pb-8">
         <div class=" hidden md:flex md:w-[1700px] lg:w-[2000px] md:mt-2 place-items-center lg:content-end">
             <img class="lg:mx-auto lg:w-fit lg:h-screen" src="/img/banner2.jpg">
         </div>
@@ -56,7 +59,7 @@
                 </div>
 
                 <div class="flex flex-col mx-auto">
-                    <button type="submit" class="apply-button bg-yellow-500 px-16 py-2">Get Started</button>
+                    <button type="submit" class="apply-button">Get Started</button>
                 </div>
             </form>
         </div>
@@ -64,7 +67,7 @@
 
     <!--UNEXPECTED EXPENSES-->
     <div class="bg-gray-50 w-full px-4 md:px-24 lg:px-72 text-gray-800 md:text-lg">
-        <h1 class="text-blue-800 text-2xl md:text-4xl text-center font-bold py-8 md:py-12 ">Online Loans for Life’s Unexpected Expenses</h1>
+        <h1 class="text-blue-800 text-2xl md:text-4xl text-center font-semibold py-8 md:py-12 ">Online Loans for Life’s Unexpected Expenses</h1>
         <p class="pb-4 md:pb-12">Everyday consumers have access to financial support from OppLoans when they need it most. We offer small-dollar, online loans that are repaid in affordable installments.</p>
         <ul class="space-y-4 md:space-y-12">
             <li>
@@ -85,120 +88,210 @@
     </div>
 
     <!--APPLY FOR-->
-    <div class="bg-purple-100 w-full px-4">
-        <h1  class="text-blue-800 text-2xl md:text-4xl text-center font-bold px-10 md:pt-8 md:pb-4 py-8">Apply for an Online Loan Through OppLoans</h1>
+    <div class="bg-blue-50 w-full px-4 py-8 order-1">
+        <h1  class="text-blue-800 text-2xl md:text-4xl text-center font-semibold px-10 pb-2">Apply for an Online Loan Through OppLoans</h1>
         <p class="text-center">We help people find a solution for their individual financial needs.</p>
-        <div>
-            <div class="py-8">
-                <img src="/img/familia.webp">
+
+        <div class="lg:flex">
+            <div class="py-4 lg:flex lg:w-1/2">
+                <img class="md:mx-auto object-cover border-8 border-blue-900 border-opacity-50 border-double rounded-xl" src="/img/familia.webp">
             </div>
-            <div>
-                <ul>
-                    <li>
+
+            <div class="text-center px-12 space-y-8 lg:flex lg:flex-col">
+                <div class="md:flex mx-auto md:space-y-0 lg:flex lg:flex-col">
+                    <div class="family-dividers">
                         <div class="family-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[80px] h-[80px] mx-auto">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
-                            <h3 class="apply-headers">Easy to Apply</h3>
                         </div>
+                        <h3 class="apply-headers">Easy to Apply</h3>
                         <p>A simplified application process. Apply online from start to finish.</p>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="family-dividers">
                         <div class="family-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[80px] h-[80px] mx-auto">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
                             </svg>
-                            <h3 class="apply-headers">Fast Funding</h3>
                         </div>
+                        <h3 class="apply-headers">Fast Funding</h3>
+                        <p>If approved, receive money in your account as soon as the next business day!</p>
+                    </div>
+                </div>
 
-                        <p>If approved, receive money in your account as soon as the next business day!1</p>
-                    </li>
-                    <li>
+                <div class="md:flex mx-auto md:space-y-0 lg:flex lg:flex-col">
+                    <div class="family-dividers">
                         <div class="family-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[80px] h-[80px] mx-auto">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z" />
                             </svg>
-                            <h3 class="apply-headers">Loans that fit your financial needs</h3>
                         </div>
-                        <p>We offer loans from $500 to $4,000.4</p>
-                    </li>
-                    <li>
+                        <h3 class="apply-headers">Loans that fit your financial needs</h3>
+                        <p>We offer loans from $100 to $1,000+</p>
+                    </div>
+
+                    <div class="family-dividers">
                         <div class="family-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[80px] h-[80px] mx-auto">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                             </svg>
-                            <h3 class="apply-headers">No Hidden Fees</h3>
                         </div>
+                        <h3 class="apply-headers">No Hidden Fees</h3>
                         <p>We’re committed to transparency. No origination fees. No prepayment penalties. You’ll know what to expect.</p>
-                    </li>
-                    <li>
-                        <button class="apply-button">Apply Now</button>
-                        <p class="text-xs text-gray-500">Applying does NOT affect your FICO® credit score!2</p>
-                    </li>
-                </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <button class="apply-button">Apply Now</button>
+                </div>
             </div>
         </div>
     </div>
 
+
+
+
+
+
     <!--FAQ-->
-    <div class="bg-pink-100 w-full">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-        </svg>
-        <ul>
+    <div class="px-4 py-8">
+        <ul class="space-y-4">
             <li>
-                <h3>What is an online personal loan?</h3>
-                <p>Online personal loans are unsecured installment loans offered by online lenders and some traditional banks. Broadly, online credit products may take the form of a line of credit, a cash advance, or other loan options.
-
-                    Online personal loan offers should clearly disclose the loan's APR (annual percentage rate), the term, and any fees such as finance charges.</p>
+                <div class="flex flex-1 place-items-center faq-item" id="faq-1" onclick="toggleFaqItem(this);">
+                    <h3 class="ask">Personal Loan. What is it?</h3>
+                    <svg id="faq-1-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 border-2 border-blue-100 text-blue-800"  onclick="w3_open()">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                <div id="faq-1-answer" class="hidden">
+                    <p>A personal loan is a short to medium term loan that can be useful for financial emergencies. The amount of money loaned is based on the amount of money a person makes. It is perfect for people who have limited access to credit. Many people who request personal loans would not normally be able to obtain loans from a traditional bank.</p>
+                </div>
             </li>
             <li>
-                <h3>How are OppLoans online personal loans different?</h3>
-                <p>We truly care about our customers and work hard to be flexible for each of our customer's unique situations. We want to make sure borrowers get the best loan for them, whether it's with OppLoans or a different online lender.
-
-                    Unlike some financial institutions (and quite unlike payday loans5), OppLoans charges no origination fees or prepayment penalties. Our loans charge simple, fixed rate interest and contain no hidden fees.
-
-                    OppLoans doesn't base funding decisions exclusively on FICO credit scores or credit history.
-
-                    We also report payments to all three major credit bureaus to help borrowers build their credit history.6
-
-                    And if you opt into our "Turn Up Program", we'll proactively see if your loan application would qualify you for a loan at a cheaper interest rate with one of our lending partners.</p>
+                <div class="flex flex-1 place-items-center faq-item" id="faq-2" onclick="toggleFaqItem(this);">
+                    <h3 class="ask">What are the minimum requirements for submitting a loan request?</h3>
+                    <svg id="faq-2-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 border-2 border-blue-100 text-blue-800" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                <div id="faq-2-answer" class="hidden">
+                    <p>There are certain requirements one has to fulfill in order to submit a request for a personal loan. Borrower must:</p>
+                    <p>• be a United States Citizen or permanent resident</p>
+                    <p>• be at least 18 years old</p>
+                    <p>• have a job/income</p>
+                    <p>• have direct deposit to a bank account</p>
+                </div>
             </li>
             <li>
-                <h3>What are the eligibility requirements to apply for an online personal loan?</h3>
-                <p>The first step in applying for a loan through OppLoans is to fill out our online loan application. To be eligible for a lending product through OppLoans, potential borrowers must:
-
-                    Be 18 years or older
-                    Have a bank account (checking account or saving account)
-                    Reside in one of the states in which we currently operate
-                    Have a regular source of income (Income can be from employment or from benefits including Social Security, Disability, etc. Please note: alimony, child support, or separate maintenance income is optional to include)
-                    Receive income through direct deposit</p>
+                <div class="flex flex-1 place-items-center faq-item" id="faq-3" onclick="toggleFaqItem(this);">
+                    <h3 class="ask">What is the process of getting a personal loan?</h3>
+                    <svg id="faq-3-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 border-2 border-blue-100 text-blue-800" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                <div id="faq-3-answer" class="hidden">
+                    <p>Getting a personal loan is generally simple and straightforward. Most people get funds deposited directly into their account upon approval. Sometimes lenders may ask for additional information but generally the entire process is online.</p>
+                </div>
             </li>
             <li>
-                <h3>What can you use an online personal loan for?</h3>
-                <p>Online personal loans can be used for a wide variety of purposes. Maybe you're looking for a loan to help consolidate debt from multiple credit cards, or maybe you need to fund an expensive home improvement or car repair. Also, if you're looking to turn bad credit into good credit, the right online personal loan may help you do that.
-
-                    OppLoans customers have used their loan amounts for:
-
-                    Car repair loans
-                    Home repair loans
-                    Debt consolidation loans
-                    Loans to help pay off medical debt
-                    Whatever your reason for searching online lenders (and whether you have excellent credit, bad credit, or you land somewhere in the middle), there are terms and conditions of the loan that you'll want to understand. Borrowers should always be clear on the interest rate, repayment terms, and whether or not the lender will run a hard or soft credit check.</p>
+                <div class="flex flex-1 place-items-center faq-item" id="faq-4" onclick="toggleFaqItem(this);">
+                    <h3 class="ask">What if I have a bad credit history?</h3>
+                    <svg id="faq-4-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 border-2 border-blue-100 text-blue-800" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                <div id="faq-4-answer" class="hidden">
+                    <p>Even people with bad credit history can be eligible for a personal loan. Many people who would not get the chance from a traditional bank, can get a loan as quickly as the next business day.</p>
+                </div>
             </li>
             <li>
-                <h3>How much can I apply for?</h3>
-                <p>Consumer products offered through the OppLoans website range from $500 to $4,000, but your eligibility will depend on your state of residence, your income and ability to repay, and your creditworthiness. For more information about the product options and lender(s) in your state, please visit our
-                    <a href="#">Rates and Terms page</a>.</p>
+                <div class="flex flex-1 place-items-center faq-item" id="faq-5" onclick="toggleFaqItem(this);">
+                    <h3 class="ask">Will I need to print or fax anything?</h3>
+                    <svg id="faq-5-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 border-2 border-blue-100 text-blue-800" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                <div id="faq-5-answer" class="hidden">
+                    <p>Part of the advantage of these loans is that most of the participating lenders require no papers to be printed or faxed in order to request a loan. However it is important that you have a printer to print out the loan documents for your own records unless you are able to save them as digital files.</p>
+                </div>
             </li>
             <li>
-                <h3>How does repayment of a personal loan work?</h3>
-                <p>OppLoans believes in matching borrowers with the best possible loan for them. If we're able to provide you with an online personal loan product, we want to make sure your repayment options are both clear and affordable across the life of the loan term.
-
-                    OppLoans offers multiple recurring payment options including ACH and paper check options. For single payments, debit cards are also accepted.</p>
+                <div class="flex flex-1 place-items-center faq-item" id="faq-6" onclick="toggleFaqItem(this);">
+                    <h3 class="ask">How much will a personal loan cost me?</h3>
+                    <svg id="faq-6-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 border-2 border-blue-100 text-blue-800" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                <div id="faq-6-answer" class="hidden">
+                    <p>Please remember that we are not a lender and we do not provide lending services directly to consumers. Submitting your registration through us incurs absolutely no cost. We are paid by the Participating Lenders or network of Participating Lenders to whom we referred you for each potential customer referral. Even if you turn down the loan or exit the process at any time, our service remains FREE of charge to you. Please check the loan agreement presented to you by the lender you are matched with and be sure to speak with the lender’s customer service to get all of your questions answered BEFORE signing the loan agreement. Once you have signed the loan agreement you have entered a binding contract and will be responsible for paying back the loan at the agreed APR.</p>
+                </div>
+            </li>
+            <li>
+                <div class="flex flex-1 place-items-center faq-item" id="faq-7" onclick="toggleFaqItem(this);">
+                    <h3 class="ask">What is the repayment process?</h3>
+                    <svg id="faq-7-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 border-2 border-blue-100 text-blue-800" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                <div id="faq-7-answer" class="hidden">
+                    <p>The loan amount and loan fees are withdrawn from your checking account automatically on the due date(s) of your loan by The Lender. Some lenders allow for extensions but many do not so be sure to read and be clear on all terms of the loan before signing the contract.</p>
+                </div>
+            </li>
+            <li>
+                <div class="flex flex-1 place-items-center faq-item" id="faq-8" onclick="toggleFaqItem(this);">
+                    <h3 class="ask">What happens if I am late on a payment or need to skip a payment?</h3>
+                    <svg id="faq-8-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 border-2 border-blue-100 text-blue-800" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                <div id="faq-8-answer" class="hidden">
+                    <p>Each Participating Lenders has their own policies pertaining to late payments. The Participating Lender's policy, including the additional charges you will incur, is detailed in the loan documents provided to you by your Participating Lender before you are requested to sign the loan agreement. Once you have signed the Participating Lenders loan documents, you will be expected to understand and abide by the loan terms including the additional charges and/or interest if your repayment is late. If you are not able to make the payments timely, please contact your Participating Lending as soon as you are aware the loan will be late and work with them,but remember additional fees and interest may apply.</p>
+                </div>
+            </li>
+            <li>
+                <div class="flex flex-1 place-items-center faq-item" id="faq-9" onclick="toggleFaqItem(this);">
+                    <h3 class="ask">What if I don't make a payment at all?</h3>
+                    <svg id="faq-9-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 border-2 border-blue-100 text-blue-800" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                <div id="faq-9-answer" class="hidden">
+                    <p>Additional fees, and charges by The Lender may apply to you in the event that you do not repay your loan. Please remember that refusal or failure to pay may result in legal action against you by The Lender in an attempt to collect the loan amount, interest and costs of collections. It. Failure to repay a loan will have a negative impact on your credit score and likely make it more difficult for you to access credit in the future.</p>
+                </div>
+            </li>
+            <li>
+                <div class="flex flex-1 place-items-center faq-item" id="faq-10" onclick="toggleFaqItem(this);">
+                    <h3 class="ask">Is there an option to refinance an existing loan?</h3>
+                    <svg id="faq-10-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 border-2 border-blue-100 text-blue-800" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                <div id="faq-10-answer" class="hidden">
+                    <p>Loan renewal policies are largely governed by State statute. In states where rollovers or extensions are allowed, interest rates, and late fees may be added to the original loan amount and that can result in a substantial increase to the amount you will be required to payback. Again, be sure to read the Participating Lenders loan terms in carefully and thoroughly before signing the initial loan contract.</p>
+                </div>
             </li>
         </ul>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!--WO WE SERVE-->
     <div class="bg-red-300 w-full">
@@ -282,6 +375,23 @@
         </p>
     </div>
 </footer>
+
+<script>
+    function toggleFaqItem(e) {
+        let faqAnswer = document.getElementById(e.id + '-answer');
+        let faqArrow = document.getElementById(e.id + '-arrow');
+        if (faqAnswer.classList.contains('hidden')) {
+            faqAnswer.classList.remove('hidden');
+            faqArrow.classList.add('rotate-180');
+        } else {
+            faqAnswer.classList.add('hidden');
+            faqArrow.classList.remove('rotate-180');
+        }
+    }
+
+
+
+</script>
 
 </body>
 </html>
